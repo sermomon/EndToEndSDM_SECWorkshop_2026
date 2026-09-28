@@ -145,7 +145,7 @@ for (dataset in DATASETS) {
 
 # Downloaded files
 files_info <- data.frame(
-  file    = basename(downloaded_files),
+  file = basename(downloaded_files),
   size_mb = round(file.size(downloaded_files) / 1024^2, 2)
 )
 print(files_info, row.names = FALSE)
